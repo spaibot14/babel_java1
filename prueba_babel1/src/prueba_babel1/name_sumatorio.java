@@ -1,12 +1,13 @@
 package prueba_babel1;
-
+import java.util.Scanner;
 public class name_sumatorio {
 
 	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
 		int a = 50;
 		int b = 16;
 	
-		
+		System.out.println();
 		int men = menor(a,b);
 		int may = mayor(a,b);
 		System.out.println("suma de los pares" + suma(men,may));
